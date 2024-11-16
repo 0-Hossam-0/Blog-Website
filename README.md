@@ -22,16 +22,22 @@ This is a simple blog website, It allows users to create an account, log in, and
 
 
 # Video
-https://github.com/user-attachments/assets/a791ad10-a22e-44cc-861a-69df10592b2d
+
+
+
+https://github.com/user-attachments/assets/cd5ebc27-1809-4cf8-ba61-63424ccc2708
+
+
 # Pages
-[[![Screenshot_1](https://github.com/user-attachments/assets/8a3c659f-4254-4d32-b88f-9312042a9105)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_1.png)](https://github.com/H0SSM/Blog-Website/blob/dc92ae45644040999d511c54ccc3e4887b9b4cac/photos/Screenshot_1.png)
-[![Screenshot_2](https://github.com/user-attachments/assets/e4fe85b3-540d-476a-bb2e-d55ce2348be2)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png)
-[![Screenshot_3](https://github.com/user-attachments/assets/51fc7e55-9065-4080-bfb3-a81b21d4a441)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_3.png)
-[![Screenshot_4](https://github.com/user-attachments/assets/78e78816-9ac9-41bc-8b2b-020267f79bd8)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_4.png)
-[![Screenshot_5](https://github.com/user-attachments/assets/127db838-0590-4ea0-8560-ab617818f2b8)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_5.png)
-[![Screenshot_6](https://github.com/user-attachments/assets/4d1658bd-1216-450a-b141-78d7662def64)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_6.png)
-[![Screenshot_7](https://github.com/user-attachments/assets/7bb1ed2d-a6bc-4390-bd3d-b3d5ffbd823b)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_7.png)
-[![Screenshot_8](https://github.com/user-attachments/assets/588aa851-dabb-4621-b88c-e37d92cd3ab2)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_8.png)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/dc92ae45644040999d511c54ccc3e4887b9b4cac/photos/Screenshot_1.png)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_3.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_4.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_5.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_6.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_7.png?raw=true)
+![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_8.png?raw=true)
 
 
 # Database (
