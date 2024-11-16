@@ -24,7 +24,7 @@ This is a simple blog website, It allows users to create an account, log in, and
 # Video
 https://github.com/user-attachments/assets/a791ad10-a22e-44cc-861a-69df10592b2d
 # Pages
-[![Screenshot_1](https://github.com/user-attachments/assets/8a3c659f-4254-4d32-b88f-9312042a9105)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_1.png)
+[[![Screenshot_1](https://github.com/user-attachments/assets/8a3c659f-4254-4d32-b88f-9312042a9105)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_1.png)](https://github.com/H0SSM/Blog-Website/blob/dc92ae45644040999d511c54ccc3e4887b9b4cac/photos/Screenshot_1.png)
 [![Screenshot_2](https://github.com/user-attachments/assets/e4fe85b3-540d-476a-bb2e-d55ce2348be2)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png)
 [![Screenshot_3](https://github.com/user-attachments/assets/51fc7e55-9065-4080-bfb3-a81b21d4a441)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_3.png)
 [![Screenshot_4](https://github.com/user-attachments/assets/78e78816-9ac9-41bc-8b2b-020267f79bd8)](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_4.png)
