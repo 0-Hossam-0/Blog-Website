@@ -29,18 +29,19 @@ https://github.com/user-attachments/assets/cd5ebc27-1809-4cf8-ba61-63424ccc2708
 
 
 # Pages
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/dc92ae45644040999d511c54ccc3e4887b9b4cac/photos/Screenshot_1.png)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_3.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_4.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_5.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_6.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_7.png?raw=true)
-![Image Alt](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_8.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/dc92ae45644040999d511c54ccc3e4887b9b4cac/photos/Screenshot_1.png)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_3.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_2.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_4.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_5.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_6.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_7.png?raw=true)
+![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_8.png?raw=true)
 
 
-# Database (
-These instructions will get you a copy of the project up and running on your local machine
 # Database 
 You can use my database attached to the project
+![Database file](https://github.com/H0SSM/Blog-Website/blob/ea738572cb26995fd346888aaa6847bc7a60134d/iti-project.sql)
+
+
