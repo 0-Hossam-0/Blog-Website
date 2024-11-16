@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 249, 255);
+    font-family: "Roboto", sans-serif;
+
+}
+
+.window {
+    background-color: rgb(169, 222, 249);
+    outline: rgb(0, 0, 0) solid;
+    width: 20rem;
+    height: fit-content;
+    border-radius: 1rem;
+    position: relative;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.window:hover {
+    transition: 0.2s;
+    box-shadow: 6px 6px 14px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.error{
+    text-align: center;
+}
+
+
+
+.inputs2 {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width:284px;
+}
+
+input {
+    background-color: rgb(238, 249, 255);
+    border: none;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+input:hover {
+    transition: 0.2s;
+    border: grey solid 2px;
+    outline: none;
+    background-color: rgb(200, 201, 201);
+}
+
+#button {
+    width: 90px;
+    height: 30px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(238, 249, 255);
+    border: solid 2px black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: rgb(203, 205, 206);
+}
+
+
+p {
+    color: red;
+}
+
+.back {
+    background-color: red;
+    width: 130px;
+    height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid black 2px;
+    color: black;
+}
+
+.back:hover {
+    background-color: rgb(251, 65, 65);
+}
+
+.window .inputs .gender-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    gap: 2rem;
+}
+
+.window .inputs .gender-box .gender-text {
+    font-size: 20px;
+    color: black;
+}
+
+.window .inputs .gender-box .male-gender {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+}
+
+.window .inputs .gender-box .male-gender .male-text {
+    color: black;
+}
+
+.window .inputs .gender-box .male-gender .checkbox {
+    font-size: 10px;
+}
+
+.window .inputs .gender-box .female-gender {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+}
+
+.window .inputs .gender-box .female-gender .female-text {
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+}

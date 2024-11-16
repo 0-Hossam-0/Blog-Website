@@ -1,0 +1,448 @@
+@import "path/to/font-awesome/less/font-awesome.less";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 249, 255);
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+/*                                                           Header                                                 */
+
+.header {
+    background-color: rgb(169, 222, 249);
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    outline:black solid;
+    /* transition: 1s; */
+}
+
+.header .buttons {
+    display: flex;
+    gap:1rem;
+}
+
+
+
+.header .buttons .logout-icon{
+    font-size: 33px;
+    background-color: red;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: solid black 1px;
+}
+
+.header .buttons .logout-icon:hover{
+    background-color: rgb(207, 6, 6);
+
+}
+
+
+.header .buttons .settings-icon {
+    font-size: 40px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: solid black 1px;
+}
+
+.header .buttons .dark-mode{
+    font-size: 35px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: solid black 1px;
+    height: 54px;
+}
+
+.header .buttons .dark-mode:hover{
+    background-color: rgb(203, 198, 198);
+
+}
+
+.header .menu .menu-icon {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: white;
+    padding: 8px;
+    border-radius: 1rem;
+    outline: solid black 1px;
+}
+
+.header .menu button {
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.header .menu .menu-icon:hover {
+    background-color: rgb(196, 194, 194);
+}
+.header .search {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+}
+
+.header .search .search-bar {
+    outline: none;
+    border: none;
+    width: 25vw;
+    height: 45px;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 1px 1px;
+    outline:solid black;
+}
+
+.header .search .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.header .search .search-bar:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.header .profile {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .profile .username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .profile .profile-icon {
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 3px 1px 1px;
+    border-radius: 2rem;
+}
+
+
+.header button {
+    border-radius: 1rem;
+    border: none;
+}
+
+.header .settings-icon:hover {
+    background-color: rgb(181, 176, 176);
+}
+
+/*                                             Side Menu                                    */
+
+.side-menu {
+    float: left;
+    background-color: white;
+    width: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    transition: 1s;
+    margin-right: 5vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 7rem;
+    outline: black solid 1px;
+    border-radius: 10px;
+}
+
+.side-menu .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    /* transition: 0.3s; */
+    visibility: hidden;
+}
+
+.side-menu .explore {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    visibility: hidden;
+}
+
+.side-menu .explore .explore-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.side-menu .explore .explore-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-menu .explore .explore-section .home-text{
+    font-size: 18px;
+}
+
+.side-menu .explore .explore-section .home-button {
+    outline: black solid 1px;
+    border-radius: 1rem;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.side-menu .explore .explore-section .home-icon {
+    font-size: 35px;
+}
+
+
+.side-menu .profile .profile-icon {
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 3px 1px 1px;
+    border-radius: 5rem;
+}
+
+.side-menu .profile .username {
+    font-size: 20px;
+}
+
+.side-menu .settings {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* transition: 0.3s; */
+    visibility: hidden;
+}
+
+.side-menu .settings .settings-section {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.side-menu .settings .settings-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.side-menu .settings .settings-option .settings-icon {
+    font-size: 30px;
+    background-color: rgb(169, 222, 249);
+    border-radius: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    outline: solid black 1px;
+}
+
+.side-menu .settings .settings-option button {
+    border-radius: 1rem;
+    border: none;
+}
+
+.side-menu .settings .settings-option .settings-icon:hover {
+    background-color: rgb(145, 182, 200);
+}
+
+.side-menu .settings .settings-option .settings-text {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.side-menu .settings .logout-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.side-menu .settings .logout-option .logout-icon {
+    font-size: 30px;
+    background-color: red;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: solid black 1px;
+}
+
+.side-menu .settings .logout-option button {
+    border-radius: 1rem;
+    border: none;
+}
+
+.side-menu .settings .logout-option .logout-icon:hover {
+    background-color: rgb(229, 51, 51);
+}
+
+.side-menu .settings .logout-option .logout-text {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/*                                                           Post Body                                                               */
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 1000px;
+    height: 800px;
+    margin-left: 16vw;
+    background-color: white;
+    outline: solid black;
+    box-shadow: 8px 6px 10px 2px;
+    border-radius: 1rem;
+    /* transition: 1s; */
+}
+
+.post-body .post-header {
+    width: 1000px;
+    /* transition: 1s; */
+    border-bottom: black solid;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    padding:2rem;
+}
+
+.post-body .post-header .create-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.post-body .inputs {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 500px;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+.post-body .inputs .title-box{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.post-body .inputs .title-box .title-error{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:3rem;
+}
+
+.post-body .inputs .body-box{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.post-body .inputs .body-box .body-error{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:3rem;
+}
+
+.post-body .inputs .title-text{
+    font-size:25px;
+}
+
+.post-body .inputs .title-box .post-title {
+    width: 490px;
+    height: 50px;
+    margin-left: 2rem;
+    background-color: rgb(241, 250, 255);
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    outline: black solid;
+    font-size: 20px;
+}
+
+.post-body .inputs .body-box .body {
+    width: 700px;
+    height: 100px;
+    max-width: 900px;
+    max-height: 230px;
+    min-height: 5vw;
+    margin-left: 2rem;
+    background-color: rgb(241, 250, 255);
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* transition: 1s; */
+    outline: black solid;
+    font-size: 20px;
+}
+
+.post-body .action {
+    height: 80px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.post-body .action .create-button {
+    background-color: rgb(169, 222, 249);
+    border: none;
+    outline: solid black;
+    border-radius: 2rem;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.post-body .action .create-button:hover {
+    background-color: rgb(135, 170, 188);
+}
+
+/*                                                          Transitions                                                 */
+
+.side-menu-transition {
+    width: 300px;
+    margin-right: 5vw;
+}

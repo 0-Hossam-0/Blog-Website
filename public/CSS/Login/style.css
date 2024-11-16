@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 249, 255);
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.window{
+    background-color: rgb(169, 222, 249);
+    outline:rgb(0, 0, 0) solid;
+    width: 20rem;
+    height: fit-content;
+    text-align: center;
+    border-radius: 1.3rem;
+    position: relative;
+    animation-name: fade;
+    transition: 0.2s;
+}
+.window:hover{
+    transition: 0.2s;
+    box-shadow: 6px 6px 14px;
+    padding:1rem;
+    margin-bottom:1rem;
+    margin-right:1rem;
+}
+
+.header{
+    font-size: 1.5rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left:10px;
+    width: 18.5rem;
+}
+
+.inputs input{
+    background-color: rgb(238, 249, 255);
+    border:none;
+    padding-left:10px;
+    height: 40px;
+    border-radius: 1rem;
+}
+.inputs input:focus{
+    transition: 0.1s;
+    border: grey solid 3px;
+    outline: none;
+}
+
+.button{
+    width: 90px;
+    height: 30px;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    background-color: rgb(136, 176, 198);
+    border:solid 2px black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(120, 155, 173);
+}
+
+p{
+    color:red;
+}
+
+
+
+.back{
+    background-color: red;
+    width: 130px;
+    height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:5px;
+    padding-bottom:5px;
+    border: solid black 2px;
+    color:black;
+  }
+
+  .back:hover{
+    background-color: rgb(251, 65, 65);
+}
+
