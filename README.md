@@ -1,5 +1,5 @@
-# Blog-Website
-This is a simple blog website, It allows users to create an account, log in, and manage their profiles, manage their posts. The website features a blog system where users can:
+# Social Networking Site
+This is a simple networking website, It allows users to create an account, log in, and manage their profiles, manage their posts. The website features a blog system where users can:
 
 **Add Posts**: Authenticated users can write and publish blog posts, sharing their thoughts or stories with the community.
 
@@ -21,6 +21,11 @@ This is a simple blog website, It allows users to create an account, log in, and
 ![MySQL Database](https://img.shields.io/badge/MySQL-1.0-00758f?logo=mysql&logoColor=white)
 
 
+# Database 
+You can use my database attached to the project
+![Database file](https://github.com/H0SSM/Blog-Website/blob/ea738572cb26995fd346888aaa6847bc7a60134d/iti-project.sql)
+
+
 # Video
 
 
@@ -40,8 +45,6 @@ https://github.com/user-attachments/assets/cd5ebc27-1809-4cf8-ba61-63424ccc2708
 ![Image](https://github.com/H0SSM/Blog-Website/blob/main/photos/Screenshot_8.png?raw=true)
 
 
-# Database 
-You can use my database attached to the project
-![Database file](https://github.com/H0SSM/Blog-Website/blob/ea738572cb26995fd346888aaa6847bc7a60134d/iti-project.sql)
+
 
 
