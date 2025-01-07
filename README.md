@@ -1,7 +1,7 @@
 # Social Networking Site
 This is a simple networking website, It allows users to create an account, log in, and manage their profiles, manage their posts.This is some features you can do in the site:
 
-**Add Posts**: Authenticated users can write and publish blog posts, sharing their thoughts or stories with the community.
+**Add Posts**: Authenticated users can write and publish posts, sharing their thoughts or stories with the community.
 
 **Edit Posts**: Users can edit their posts at any time, allowing them to update content or make corrections.
 
