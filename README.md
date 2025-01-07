@@ -1,5 +1,5 @@
 # Social Networking Site
-This is a simple networking website, It allows users to create an account, log in, and manage their profiles, manage their posts. The website features a blog system where users can:
+This is a simple networking website, It allows users to create an account, log in, and manage their profiles, manage their posts.This is some features you can do in the site:
 
 **Add Posts**: Authenticated users can write and publish blog posts, sharing their thoughts or stories with the community.
 
